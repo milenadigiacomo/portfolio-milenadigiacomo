@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- REMIXICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!------------ HEADER ------------->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">M</span>
+          <span class="nav__logo-name">Milena Di Giacomo</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+
+          <h3 class="nav__name">Milena</h3>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Portfolio</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!------- HOME ------->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/milenadigiacomo/"
+                class="home__social-icon"
+                ><i class="ri-linkedin-fill"></i
+              ></a>
+              <a
+                href="https://github.com/milenadigiacomo"
+                class="home__social-icon"
+                ><i class="ri-github-fill"></i
+              ></a>
+              <a href="#" class="home__social-icon">
+                <i class="ri-global-line"></i
+              ></a>
+            </div>
+
+            <div class="home__img">
+              <img src="assets/photo mile.jpeg" alt="" />
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">
+                Hi, I'm <span class="home__title-color">Milena</span>
+              </h1>
+              <h1 class="home__subtitle">Frontend wed developer</h1>
+              <a href="#contact" class="button"
+                ><i class="ri-send-plane-2-line button__icon"></i> Contact Me</a
+              >
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button">
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="ri-arrow-down-line home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!------- ABOUT ------->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container about__page container grid">
+          <div class="about__perfil perfil">
+            <div class="perfil__content">
+              <img
+                src="./assets/photo mile.jpeg"
+                class="about__img"
+                alt="about__img"
+              />
+            </div>
+          </div>
+
+          <div class="about__content grid">
+            <div class="about__data grid">
+              <div class="about__info grid">
+                <p class="about__description">
+                  <b>I'm Milena</b>, I'm a curious person who is entering at the
+                  IT world, waiting to expand my knowledge and looking for
+                  increase the skills I learned in my student period.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__skills">
+              <p class="about__skills-title"><b>My skills are</b></p>
+              <div class="about__skills-content grid">
+                <img
+                  src="assets/icon-css-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-javascript-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-html-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-react-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-sass-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-github-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+                <img
+                  src="assets/icon-git-96.png"
+                  alt="image"
+                  class="about__skills-img"
+                />
+              </div>
+
+              <div class="about__button-container">
+                <a download="" href="" class="about__button button">
+                  Download CV <i class="ri-download-2-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------- PORTFOLIO ------->
+      <section class="project section" id="projects">
+        <h2 class="section__title">Portfolio</h2>
+
+        <div class="project__container container grid">
+          <article class="project__card">
+            <a href="https://trabajo-final-six.vercel.app/" class="project__link">
+              <img
+                src="assets/project 1.jpg"
+                alt="image"
+                class="project__img"
+              />
+              <i class="ri-arrow-right-circle-line project__icon"></i>
+            </a>
+            <h2 class="project__title">Beauty blog</h2>
+            <span class="project__subtitle">Website design</span>
+          </article>
+
+          <article class="project__card">
+            <a href="#" class="project__link">
+              <img src="assets/project .jpg" alt="image" class="project__img" />
+              <i class="ri-arrow-right-circle-line project__icon"></i>
+            </a>
+            <h2 class="project__title">Ecommerce Website</h2>
+            <span class="project__subtitle">Website design</span>
+          </article>
+
+          <article class="project__card">
+            <a href="#" class="project__link">
+              <img src="assets/project .jpg" alt="image" class="project__img" />
+              <i class="ri-arrow-right-circle-line project__icon"></i>
+            </a>
+
+            <h2 class="project__title">Ecommerce Website</h2>
+            <span class="project__subtitle">Website design</span>
+          </article>
+        </div>
+      </section>
+
+      <!------- CONTACT ------->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__page container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_name"
+                  id="name"
+                  required
+                  placeholder="Write your names"
+                  class="contact__input"
+                />
+                <label for="name" class="contact__label">First Name</label>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  required
+                  placeholder="Write your email"
+                  class="contact__input"
+                />
+                <label for="email" class="contact__label">Email Address</label>
+              </div>
+            </div>
+
+            <div class="contact__box contact__area">
+              <textarea
+                name="user_message"
+                id="massage"
+                required
+                placeholder="Write your message"
+                class="contact__input"
+              ></textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="contact__send button">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!------- FOOTER ------->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <a href="index.html" class="footer__logo">Milena</a>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="footer__link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!------- SCROLL UP ------->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!------------ MY SCRIPTS ------------->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- emailjs -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- contact js -->
+    <script src="js/contact.js"></script>
+  </body>
+</html>
