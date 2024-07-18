@@ -1,0 +1,13 @@
+🔗 Resources
+Icons: https://iconscout.com/unicons
+https://iconos8.es/icons/set/grid
+https://remixicon.com/
+Fonts: https://fonts.google.com/
+Remove the background: https://www.remove.bg/
+HSL color: https://www.w3schools.com/colors/colo...
+Blob Generator: https://www.blobmaker.app/
+
+📧 Send emails (Not sponsored)
+Follow the documentation to send emails through the form, you can choose any of these services.
+https://www.emailjs.com/
+https://getform.io/
