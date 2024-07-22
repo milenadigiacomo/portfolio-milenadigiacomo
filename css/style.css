@@ -698,7 +698,7 @@ img {
 /* // Large devices // */
  @media screen and (min-width: 1150px){
     .container{
-        max-width: 1200px;
+        max-width: 1700px;
     } 
    
     .section__title{
@@ -769,9 +769,12 @@ img {
     }
 } 
 
-
-/* //////////////////////////////////////////////////// */
-
-/* .main{
-    overflow: hidden;
-} 
+@media screen and (min-width: 1320px){
+    .home__container {
+        position: relative;
+        grid-template-columns: 900px 300px;
+        align-items: center;
+        column-gap: 4rem;
+        padding: 3rem 10rem 3rem 15rem;
+    }
+}
